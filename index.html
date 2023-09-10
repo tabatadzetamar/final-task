@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="assets/image/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Planets</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Antonio&family=Cabin&family=Fasthand&family=Inter&family=Miltonian+Tattoo&family=Oswald&family=Poppins&family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin&family=Fasthand&family=Inter&family=League+Spartan&family=Miltonian+Tattoo&family=Oswald&family=Poppins&family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin&family=Fasthand&family=Inter&family=League+Spartan:wght@700&family=Miltonian+Tattoo&family=Oswald&family=Poppins&family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="body">
+      <header>
+        <h1>THE PLANETS</h1>
+        <button id="burger-manu">
+          <img src="assets/image/icon-burger.svg" alt="burger-icon" />
+        </button>
+        <nav class="planets">
+          <ul class="planets-manu">
+            <li class="planet-link">
+              <div class="border mercury"></div>
+              <a class="planet-link" href="#">
+                <div class="circle circle-1"></div>
+                <h3 class="planet-1">Mercury</h3>
+                <img class="arrow" src="assets/image/Arrow.png" />
+              </a>
+            </li>
+            <hr class="navhr" />
+            <li class="planet-link">
+              <div class="border venus"></div>
+              <a class="planet-link" href="#">
+                <div class="circle circle-2"></div>
+                <h3 class="planet-2">Venus</h3>
+                <img class="arrow" src="assets/image/Arrow.png" />
+              </a>
+            </li>
+            <hr class="navhr" />
+            <li class="planet-link">
+              <div class="border earth"></div>
+              <a class="planet-link" href="#">
+                <div class="circle circle-3"></div>
+                <h3 class="planet-3">Earth</h3>
+                <img class="arrow" src="assets/image/Arrow.png" />
+              </a>
+            </li>
+            <hr class="navhr" />
+            <li class="planet-link">
+              <div class="border mars"></div>
+              <a class="planet-link" href="#">
+                <div class="circle circle-4"></div>
+                <h3 class="planet-4">Mars</h3>
+                <img class="arrow" src="assets/image/Arrow.png" />
+              </a>
+            </li>
+            <hr class="navhr" />
+            <li class="planet-link">
+              <div class="border jupiter"></div>
+              <a class="planet-link" href="#">
+                <div class="circle circle-5"></div>
+                <h3 class="planet-5">Jupiter</h3>
+                <img class="arrow" src="assets/image/Arrow.png" />
+              </a>
+            </li>
+            <hr class="navhr" />
+            <li class="planet-link">
+              <div class="border saturn"></div>
+              <a class="planet-link" href="#">
+                <div class="circle circle-6"></div>
+                <h3 class="planet-6">Saturn</h3>
+                <img class="arrow" src="assets/image/Arrow.png" />
+              </a>
+            </li>
+            <hr class="navhr" />
+            <li class="planet-link">
+              <div class="border uranus"></div>
+              <a class="planet-link" href="#">
+                <div class="circle circle-7"></div>
+                <h3 class="planet-7">Uranus</h3>
+                <img class="arrow" src="assets/image/Arrow.png" />
+              </a>
+            </li>
+            <hr class="navhr" />
+            <li class="planet-link">
+              <div class="border neptune"></div>
+              <a class="planet-link" href="#">
+                <div class="circle circle-8"></div>
+                <h3 class="planet-8">Neptune</h3>
+                <img class="arrow" src="assets/image/Arrow.png" />
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <hr class="main-hr" />
+      <section>
+        <div class="info">
+          <div class="planet-info2" id="overview-btn">
+            <h1>Overview</h1>
+            <div class="line overview-line"></div>
+          </div>
+          <div class="planet-info2" id="interan-btn">
+            <h1>Structure</h1>
+            <div class="line interan-line"></div>
+          </div>
+          <div class="planet-info2" id="surface-btn">
+            <h1>Surface</h1>
+            <div class="line surface-line"></div>
+          </div>
+        </div>
+        <hr class="main-hr" />
+        <div class="img">
+          <img id="planet-img" alt="Mercury" />
+          <img id="geology" alt="" />
+        </div>
+        <div class="section-1">
+          <div class="section-text">
+            <div class="text">
+              <h1 id="planet-name"></h1>
+              <p class="planet-info">
+                Mercury is the smallest planet in the Solar System and the
+                closest to the Sun. Its orbit around the Sun takes 87.97 Earth
+                days, the shortest of all the Sun's planets. Mercury is one of
+                four terrestrial planets in the Solar System, and is a rocky
+                body like Earth.
+              </p>
+              <div class="source-info">
+                <h4 class="source">Source :</h4>
+                <a id="source" href="#" target="_blank">Wikipedia</a>
+                <img src="assets/image/icon-source.svg" alt="icon-source" />
+              </div>
+            </div>
+          </div>
+          <div class="info-2">
+            <div class="planet-info2" id="overview2-btn">
+              <p class="number">01</p>
+              <h1>Overview</h1>
+            </div>
+            <div class="planet-info2" id="interan2-btn">
+              <p class="number">02</p>
+              <h1><span>Internal</span> Structure</h1>
+            </div>
+            <div class="planet-info2" id="surface2-btn">
+              <p class="number">03</p>
+              <h1>Surface <span>Geology</span></h1>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="information">
+          <div class="infocontainer">
+            <p class="info-text">ROTATION TIME</p>
+            <p class="info-number" id="rotation">58.6 Days</p>
+          </div>
+          <div class="infocontainer">
+            <p class="info-text">REVOLUTION TIME</p>
+            <p class="info-number" id="revolution">87.97 Days</p>
+          </div>
+          <div class="infocontainer">
+            <p class="info-text">RADIUS</p>
+            <p class="info-number" id="radius">2,439.7 KM</p>
+          </div>
+          <div class="infocontainer">
+            <p class="info-text">AVERAGE TEMP.</p>
+            <p class="info-number" id="temperature">430°c</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,337 @@
+@media all and (min-width: 768px) {
+
+    header  {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center;
+        text-align: center;
+    }
+   #burger-manu {
+        display: none;
+    }
+
+    #hamburger-menu {
+        display: none;
+    }
+
+    header h1 {
+        margin-bottom: 0;
+    }
+
+    header nav  {
+        position: relative;
+       display: flex;
+       align-items: center;
+       left: 0;
+       justify-content: center;
+        margin: 39px 0;
+
+    }
+    header nav hr {
+        display: none;
+    }
+
+    header nav .circle {
+        display: none;
+    }
+
+    header nav .arrow {
+        display: none;
+    }
+
+    
+    header nav ul {
+        display: flex;
+        gap: 20px;
+        
+        }
+
+    header nav h3 {
+        color: var(--color-text);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 11px;
+        text-align: center;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-family: League Spartan;
+        }
+    .border {
+            display: none;
+        }
+    
+       
+        section hr {
+          display: none;
+        }
+        .section-1 {
+           display: flex;
+           align-items: center;
+           justify-content: space-between;
+        
+        }
+        .info {
+            display: none;
+        }
+
+        section .info-2 {
+            display: block;
+        }
+
+        .section-text {
+            display: block;
+            text-align: left;
+        }
+
+        .info-2 .number {
+            display: flex;
+            color: var(--color-text);
+            margin-left: 20px;
+            opacity: 0.5;
+        }
+        .info-2 h1 {
+            display: flex;
+            font-family: League Spartan;
+            font-weight: 700;
+            font-size: 12px;
+            text-transform: uppercase;
+            text-align: center;
+            color: var(--color-text);
+            gap: 6px;
+            margin-left: 17px;
+           
+            
+        }
+        .info-2 span {
+            display: flex;
+        }
+        .info-2 .planet-info2 {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            text-align: center;
+            border: 1px solid var(--color-border);
+            width: 281px;
+            height: 40px;
+            margin: 24px 20px 0;
+   
+        }
+       
+        .info-2 .planet-info2:hover {
+            background-color:  var(--color-hover) !important;
+            cursor: pointer;
+        }
+        
+        section #planet-img {
+            width: 270px;
+            height: 270px;
+        }
+
+        section #geology {
+            width: 135px;
+            height: 200px;
+            margin-top: 150px;
+        }
+       
+
+        .text {
+            display: flex;
+            flex-direction: column;
+           
+        }
+
+        #planet-name {
+            display: flex;
+            justify-content: left;
+            margin-left: 39px;
+            
+        }
+
+        .planet-info {
+            display: flex;
+            justify-content: left;
+            text-align: left;
+            margin-left: 39px;
+        }
+
+        .source-info {
+            display: flex;
+            justify-content: left;
+            margin-left: 39px;
+            
+
+        }
+
+        .information {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 22px;
+        }
+
+        .infocontainer {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: normal;
+            width: 164px;
+            height: 88px;
+            border: 1px solid var(--color-border);
+    
+
+        }
+        
+        .info-text {
+            font-size: 12px;
+            margin-left: 15px;
+           
+        }
+
+        footer .info-number {
+            font-size: 25px;
+            margin-left: 24px;
+        }
+}
+
+
+
+
+@media all and (min-width: 1440px) {
+    header  {
+        display: flex;
+        flex-direction: row;
+        align-items: center; 
+        justify-content: space-between;
+    
+    }
+    header nav {
+        display: flex;
+        align-items: center;
+
+    margin-top: 0px;
+        order: 1;
+        margin-right: 24px;
+    }
+
+
+    nav .border {
+        display: block;
+        width: 100%;
+        height: 4px;
+        margin-bottom: 39px;
+        
+    }
+    .active-mercury {
+        background-color: var(--color-mercury);
+      }
+      .active-venus {
+        background-color: var(--color-venus);
+      }
+      .active-earth{
+        background-color: var(--color-earth);
+      }
+      .active-mars {
+        background-color: var(--color-mars);
+      }
+      .active-jupiter {
+        background-color: var(--color-jupiter);
+      }
+      .active-saturn {
+        background-color: var(--color-saturn);
+      }
+      .active-uranus {
+        background-color: var(--color-uranus);
+      }
+      .active-neptune {
+        background-color: var(--color-neptune);
+      }
+    
+    section {
+        display: flex;
+        justify-content: space-between;
+        margin: 126px 150px 85px 260px;
+      
+    }
+    
+    .section-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+     
+     }
+
+     .info-2 {
+        width: 413px;
+     }
+
+     .info-2 .number {
+        margin-left: 28px;
+    }
+
+    .info-2 h1{
+        margin-left: 28px;
+    }
+
+     .info-2 .planet-info2 {
+        width: 350px;
+     }
+    
+    section #planet-img {
+        width: 290px;
+        height: 290px;
+    }
+
+    section #geology {
+        width: 165px;
+      
+    }
+
+    #planet-name {
+        margin-left: 24px;
+        font-size: 80px;
+    
+    }
+    .source-info {
+        margin-left: 24px;
+    }
+
+
+    .section-text {
+        display: flex;
+        flex-direction: column;
+        align-items: normal;
+        width: 374px;
+        height: 273px;
+        margin: 0;
+    
+        
+    }
+    .text p {
+        text-align: left;
+        margin: 16px 24px 32px;
+        width: 350px;
+        height: 110px;
+    }
+
+    .planet-info {
+        font-size: 14px;
+        color: var(--color-info);
+       
+    }
+
+
+    .infocontainer {
+        width: 255px;
+        height: 128px;
+    }
+
+    .info-text {
+        font-size: 11px;
+    }
+    footer .info-number {
+        font-size: 40px;
+    }
+
+}
+
